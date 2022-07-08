@@ -1,0 +1,7 @@
+Pyrogram==1.4.16
+youtube_search
+requests
+youtube_dl
+aiohttp
+Tgcrypto
+asyncio
