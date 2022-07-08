@@ -55,7 +55,7 @@ async def help(client, message):
                                             " 🌀About 🌀", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "📦 Source Code 📦", url="https://github.com/lakshan17/LpSongDownlodBot)
+                                            "📦 Source Code 📦", url="https://github.com/lakshan17/LpSongDownlodBot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
