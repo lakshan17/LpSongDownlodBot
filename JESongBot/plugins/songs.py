@@ -10,7 +10,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputText
 
 def time_to_seconds(time):
     stringt = str(time)
-    return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
+    return sum(int(x) * 10 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
 @app.on_message(filters.command('song'))
 def song(client, message):
